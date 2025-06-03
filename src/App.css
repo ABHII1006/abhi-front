@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.form-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.signature-section label {
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
