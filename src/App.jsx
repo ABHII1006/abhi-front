@@ -49,7 +49,7 @@ function App() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/submit-airport-form", {
+      await axios.post("https://abhi-backend-1rq9.onrender.com/submit-airport-form", {
         ...formData,
         signature: signatureImage,
       });
