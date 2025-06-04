@@ -4,16 +4,52 @@ import "./App.css";
 import logo from "./image/logo1.png"; // ✅ Make sure the image exists in src/image/
 
 const indianAirports = [
-  "Kempegowda International Airport, Bengaluru",
+  // International Airports
   "Indira Gandhi International Airport, Delhi",
   "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+  "Kempegowda International Airport, Bengaluru",
   "Rajiv Gandhi International Airport, Hyderabad",
   "Chennai International Airport",
   "Netaji Subhas Chandra Bose International Airport, Kolkata",
-  "Cochin International Airport",
+  "Cochin International Airport, Kochi",
   "Sardar Vallabhbhai Patel International Airport, Ahmedabad",
-  "Pune Airport",
-  "Goa International Airport",
+  "Trivandrum International Airport, Thiruvananthapuram",
+  "Jay Prakash Narayan International Airport, Patna",
+  "Lal Bahadur Shastri International Airport, Varanasi",
+  "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+  "Sri Guru Ram Dass Jee International Airport, Amritsar",
+  "Dr. Babasaheb Ambedkar International Airport, Nagpur",
+  "Biju Patnaik International Airport, Bhubaneswar",
+  "Bagdogra International Airport, Bagdogra",
+  "Dabolim Airport (Goa International Airport), South Goa",
+  "Manohar International Airport (Mopa), North Goa",
+  "Veer Savarkar International Airport, Port Blair",
+  "Kushinagar International Airport, Kushinagar",
+  "Chaudhary Charan Singh International Airport, Lucknow",
+
+  // Major Domestic Airports
+  "Jolly Grant Airport, Dehradun",
+  "Shamshabad Domestic Terminal, Hyderabad",
+  "Surat Airport, Surat",
+  "Visakhapatnam Airport, Visakhapatnam",
+  "Jammu Airport, Jammu",
+  "Gaya Airport, Gaya",
+  "Jodhpur Airport, Jodhpur",
+  "Vadodara Airport, Vadodara",
+  "Bhopal Airport, Bhopal",
+  "Ranchi Airport, Ranchi",
+  "Raipur Airport, Raipur",
+  "Imphal Airport, Imphal",
+  "Agartala Airport, Agartala",
+  "Indore Airport, Indore",
+  "Aurangabad Airport, Aurangabad",
+  "Madurai Airport, Madurai",
+  "Tirupati Airport, Tirupati",
+  "Mysore Airport, Mysuru",
+  "Kanpur Airport, Kanpur",
+  "Pantnagar Airport, Pantnagar",
+  "Tezpur Airport, Tezpur",
+  "Shillong Airport, Shillong"
 ];
 
 function App() {
